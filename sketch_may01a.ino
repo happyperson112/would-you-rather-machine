@@ -1,3 +1,7 @@
+int buttonA;
+
+int buttonB;
+
 const int rs = 6, en = 7, d4 = 8, d5 = 9, d6 = 10, d7 = 11;
 #include <LiquidCrystal.h>
 LiquidCrystal  lcd(rs, en, d4, d5, d6, d7);
@@ -15,13 +19,36 @@ void setup() {
   delay(1000);
   lcd.clear();
   delay(1000);
-  lcd.print("Or Hot Sauce ");
-  
+  lcd.print("Or 3 Hot dogs");
+  delay(1000);
+  lcd.clear();
+
+  pinMode(3, INPUT);
+  pinMode(5, INPUT);
+  Serial.begin(9600);
+
 }
 
 void loop() {
 
-
 lcd.setCursor(0,1);
-  
+
+buttonB = digitalRead(5);
+Serial.println(buttonB);
+
+buttonA = digitalRead(3);
+Serial.println(buttonA);
+
+if (buttonA == HIGH) {
+  lcd.print("Meow");
+  delay(3000);
+  lcd.clear();
+}
+
+else (buttonB == HIGH); {
+  lcd.print("Moo");
+  delay(3000);
+  lcd.clear();
+}
+
 }
