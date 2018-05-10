@@ -31,24 +31,30 @@ void setup() {
 
 void loop() {
 
-lcd.setCursor(0,1);
+ lcd.setCursor(0,1);
 
 buttonB = digitalRead(5);
 Serial.println(buttonB);
-
+ 
 buttonA = digitalRead(3);
 Serial.println(buttonA);
+ 
 
-if (buttonA == HIGH) {
-  lcd.print("Meow");
-  delay(3000);
+if (buttonA == 1){
+  
+  lcd.print("Meow I'm ");
+  delay(1000);
   lcd.clear();
-}
+  
+  }
 
-else (buttonB == HIGH); {
-  lcd.print("Moo");
-  delay(3000);
+else (buttonB == 1);
+{
+  
+  lcd.print("A Cow!");
+  delay(1000);
   lcd.clear();
-}
 
+
+}
 }
