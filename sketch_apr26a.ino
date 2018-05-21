@@ -22,11 +22,14 @@ void loop() {
 //work();
 //timeTravel();
 //soda();
-control();
+//control();
+//day();
+//feot();
 
 }
 
 void spower(){
+  
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
 lcd.print("  Rather");
@@ -325,7 +328,7 @@ while(buttonA == 0 && buttonB == 0) {
 if (buttonA == 1){
 
 lcd.clear();
-lcd.print("  !!!");
+lcd.print("WHERE'S Earth!!!");
 delay(8000);
 lcd.clear();
 }
@@ -343,3 +346,206 @@ lcd.clear();
 lcd.clear();
 }
 
+void day(){
+  
+lcd.print("   Would You");
+lcd.setCursor(3, 2);
+lcd.print("  Rather");
+  delay(5000);
+  lcd.clear();
+  delay(1000);
+  lcd.print("  Stand All Day");
+  delay(5000);
+ lcd.clear();
+  delay(1000);
+  lcd.print(" Or Sit All Day");
+  delay(5000);
+  lcd.clear();
+
+lcd.print("Please Press a");
+lcd.setCursor(3, 2);
+lcd.print(" Button");
+lcd.setCursor(0, 1);
+
+while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  delay(5);
+}
+
+if (buttonA == 1){
+
+lcd.clear();
+lcd.print(" Do Your LEGS");
+lcd.setCursor(1, 2);
+lcd.print("   Ache!!!");
+delay(8000);
+lcd.clear();
+}
+
+else {
+
+lcd.clear();
+lcd.print("That Is Going To");
+lcd.setCursor(1, 2);
+lcd.print("HURT Tommorow");
+delay(8000);
+lcd.clear();
+
+}
+lcd.clear();
+}
+
+void third(){
+  
+lcd.print("   Would You");
+lcd.setCursor(3, 2);
+lcd.print("  Rather");
+  delay(5000);
+  lcd.clear();
+  delay(1000);
+  lcd.print(" Have A Third Eye");
+  delay(5000);
+ lcd.clear();
+  delay(1000);
+  lcd.print("  Or Third Arm");
+  delay(5000);
+  lcd.clear();
+
+lcd.print("Please Press a");
+lcd.setCursor(3, 2);
+lcd.print(" Button");
+lcd.setCursor(0, 1);
+
+while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  delay(5);
+}
+
+if (buttonA == 1){
+
+lcd.clear();
+lcd.print(" Which Eye Do");
+lcd.setCursor(1, 2);
+lcd.print(" I LOOK At!!!");
+delay(8000);
+lcd.clear();
+}
+
+else {
+
+lcd.clear();
+lcd.print(" Give Me A HAND!!!");
+delay(8000);
+lcd.clear();
+
+}
+lcd.clear();
+}
+
+void feot(){
+  
+lcd.print("   Would You");
+lcd.setCursor(3, 2);
+lcd.print("  Rather");
+  delay(5000);
+  lcd.clear();
+  delay(1000);
+  lcd.print(" Be 1 Foot Tall");
+  delay(5000);
+ lcd.clear();
+  delay(1000);
+  lcd.print(" Or 10 Feet Tall");
+  delay(5000);
+  lcd.clear();
+
+lcd.print("Please Press a");
+lcd.setCursor(3, 2);
+lcd.print(" Button");
+lcd.setCursor(0, 1);
+
+while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  delay(5);
+}
+
+if (buttonA == 1){
+
+lcd.clear();
+lcd.print(" Watch OUT!!!");
+delay(8000);
+lcd.clear();
+}
+
+else {
+
+lcd.clear();
+lcd.print("Go in The NBA!!!");
+delay(8000);
+lcd.clear();
+
+}
+lcd.clear();
+}
+
+void power(){
+  
+lcd.print("   Would You");
+lcd.setCursor(3, 2);
+lcd.print("  Rather");
+  delay(5000);
+  lcd.clear();
+  delay(1000);
+  lcd.print(" Be The Smartest");
+  delay(5000);
+ lcd.clear();
+  delay(1000);
+  lcd.print("Or Be The");
+  lcd.setCursor(1, 2);
+lcd.print("  Funniest");
+  delay(5000);
+  lcd.clear();
+
+lcd.print("Please Press a");
+lcd.setCursor(3, 2);
+lcd.print(" Button");
+lcd.setCursor(0, 1);
+
+while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  delay(5);
+}
+
+if (buttonA == 1){
+
+lcd.clear();
+lcd.print(" Do Your LEGS");
+lcd.setCursor(1, 2);
+lcd.print("   Ache!!!");
+delay(8000);
+lcd.clear();
+}
+
+else {
+
+lcd.clear();
+lcd.print("That Is Going To");
+lcd.setCursor(1, 2);
+lcd.print("HURT Tommorow");
+delay(8000);
+lcd.clear();
+
+}
+lcd.clear();
+}
