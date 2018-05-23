@@ -17,6 +17,7 @@ void setup() {
 }
 
 void loop() {
+  
 //spower();
 //slime();
 //work();
@@ -25,10 +26,24 @@ void loop() {
 //control();
 //day();
 //feot();
+//funny();
 
 }
 
 void spower(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -46,17 +61,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -82,6 +100,19 @@ lcd.clear();
 
 void slime(){
 
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
+
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
 lcd.print("  Rather");
@@ -96,17 +127,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -131,6 +165,19 @@ lcd.clear();
 }
 
 void work(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -150,17 +197,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -187,6 +237,19 @@ lcd.clear();
 }
 
 void timeTravel(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -206,17 +269,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -241,6 +307,19 @@ lcd.clear();
 }
 
 void soda(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -260,17 +339,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -297,6 +379,19 @@ lcd.clear();
 }
 
 void control(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -312,17 +407,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -347,6 +445,19 @@ lcd.clear();
 }
 
 void day(){
+
+while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -362,17 +473,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -399,6 +513,19 @@ lcd.clear();
 }
 
 void third(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -414,17 +541,20 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
@@ -449,6 +579,19 @@ lcd.clear();
 }
 
 void feot(){
+
+  while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
   
 lcd.print("   Would You");
 lcd.setCursor(3, 2);
@@ -464,17 +607,21 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
 
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+ buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
 
 while(buttonA == 0 && buttonB == 0) { 
-  Serial.println(buttonB);
-  Serial.println(buttonA);
-  buttonA = digitalRead(3);
-  buttonB = digitalRead(5);
-  delay(5);
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
 }
 
 if (buttonA == 1){
@@ -496,43 +643,60 @@ lcd.clear();
 lcd.clear();
 }
 
-void power(){
-  
-lcd.print("   Would You");
-lcd.setCursor(3, 2);
-lcd.print("  Rather");
-  delay(5000);
-  lcd.clear();
-  delay(1000);
-  lcd.print(" Be The Smartest");
-  delay(5000);
- lcd.clear();
-  delay(1000);
-  lcd.print("Or Be The");
-  lcd.setCursor(1, 2);
-lcd.print("  Funniest");
-  delay(5000);
-  lcd.clear();
-
-lcd.print("Please Press a");
-lcd.setCursor(3, 2);
-lcd.print(" Button");
-lcd.setCursor(0, 1);
+void funny(){
 
 while(buttonA == 0 && buttonB == 0) { 
   Serial.println(buttonB);
   Serial.println(buttonA);
   buttonA = digitalRead(3);
   buttonB = digitalRead(5);
-  delay(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
+}
+
+  lcd.clear();
+lcd.print("   Would You");
+lcd.setCursor(3, 2);
+lcd.print("  Rather");
+  delay(5000);
+  lcd.clear();
+  delay(1000);
+  lcd.print("1. Be The");
+    lcd.setCursor(1, 2);
+lcd.print("  Smartest");
+  delay(5000);
+ lcd.clear();
+  delay(1000);
+  lcd.print("2. Be The");
+  lcd.setCursor(1, 2);
+lcd.print("  Funniest");
+  delay(5000);
+  lcd.clear();
+
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+
+while(buttonA == 0 && buttonB == 0) { 
+Serial.println(buttonB);
+Serial.println(buttonA);
+buttonA = digitalRead(3);
+buttonB = digitalRead(5);
+lcd.setCursor(0, 0);
+   lcd.print("Please Press a");
+lcd.setCursor(0, 1);
+lcd.print("    Button");
+lcd.setCursor(0, 1);
+lcd.clear();
 }
 
 if (buttonA == 1){
 
 lcd.clear();
-lcd.print(" Do Your LEGS");
-lcd.setCursor(1, 2);
-lcd.print("   Ache!!!");
+lcd.print("   E = mc2!!!");
 delay(8000);
 lcd.clear();
 }
@@ -540,9 +704,9 @@ lcd.clear();
 else {
 
 lcd.clear();
-lcd.print("That Is Going To");
+lcd.print("Egg Puns CRACK");
 lcd.setCursor(1, 2);
-lcd.print("HURT Tommorow");
+lcd.print("   Me Up!!!");
 delay(8000);
 lcd.clear();
 
