@@ -507,7 +507,7 @@ else {
 lcd.clear();
 lcd.print("That Is Going To");
 lcd.setCursor(1, 2);
-lcd.print("HURT Tommorow");
+lcd.print("HURT Tomorrow");
 delay(8000);
 lcd.clear();
 
@@ -693,7 +693,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please hoose a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
