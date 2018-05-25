@@ -18,15 +18,16 @@ void setup() {
 
 void loop() {
   
-//spower();
-//slime();
-//work();
-//timeTravel();
-//soda();
-//control();
-//day();
-//feot();
-//funny();
+spower();
+slime();
+work();
+timeTravel();
+soda();
+control();
+day();
+third();
+feot();
+joke();
 
 }
 
@@ -51,26 +52,26 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print("  Teleport");
+  lcd.print(" 1. Teleport");
   lcd.setCursor(1, 2);
-  lcd.print("  Anywhere");
+  lcd.print(" Anywhere");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print("Or Read Minds");
+  lcd.print("2. Read Minds");
   delay(5000);
   lcd.clear();
 
  buttonA = digitalRead(3);
   buttonB = digitalRead(5);
 
-while(buttonA == 0 && buttonB == 0) { 
-Serial.println(buttonB);
-Serial.println(buttonA);
-buttonA = digitalRead(3);
-buttonB = digitalRead(5);
-lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+ while(buttonA == 0 && buttonB == 0) { 
+  Serial.println(buttonB);
+  Serial.println(buttonA);
+  buttonA = digitalRead(3);
+  buttonB = digitalRead(5);
+  lcd.setCursor(0, 0);
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -80,7 +81,7 @@ lcd.clear();
 if (buttonA == 1){
 
 lcd.clear();
-lcd.print("  WHERE am I!!!");
+lcd.print("WHERE Are You!!!");
 delay(8000);
 lcd.clear();
 }
@@ -119,11 +120,13 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print("Have Slime Hands");
+  lcd.print(" 1. Have Slime");
+  lcd.setCursor(1, 2);
+lcd.print("   Hands");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print("Or Slime Feet");
+  lcd.print("2. Slime Feet");
   delay(5000);
   lcd.clear();
   
@@ -136,7 +139,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -185,13 +188,13 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print("  Work All");
+  lcd.print("1. Work All");
   lcd.setCursor(1, 2);
   lcd.print("   Day");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print("Or Work All");
+  lcd.print("2. Work All");
   lcd.setCursor(1, 2);
   lcd.print("   Night");
   delay(5000);
@@ -206,7 +209,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -216,9 +219,9 @@ lcd.clear();
 if (buttonA == 1){
 
 lcd.clear();
-lcd.print(" What About The");
+lcd.print(" Sorry Disney's");
 lcd.setCursor(1, 2);
-lcd.print(" KIDS!!!");
+lcd.print(" CLOSED!!!");
 delay(8000);
 lcd.clear();
 }
@@ -257,13 +260,13 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print(" Go Into The");
+  lcd.print("1. Go Into The");
   lcd.setCursor(1, 2);
   lcd.print("  FUTURE");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print("Or Go Into The");
+  lcd.print("2. Go Into The");
   lcd.setCursor(1, 2);
   lcd.print("  PAST");
   delay(5000);
@@ -278,7 +281,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -288,7 +291,7 @@ lcd.clear();
 if (buttonA == 1){
 
 lcd.clear();
-lcd.print(" Are THERE still");
+lcd.print(" Is THERE still");
 lcd.setCursor(1, 2);
 lcd.print(" Schools!?!");
 delay(8000);
@@ -327,13 +330,13 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print(" Only Drink");
+  lcd.print("1. Only Drink");
   lcd.setCursor(1, 2);
   lcd.print("  Soda");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print("Or Never");
+  lcd.print("2. Never");
   lcd.setCursor(1, 2);
   lcd.print("  Drink Soda");
   delay(5000);
@@ -348,7 +351,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -399,11 +402,11 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print(" Control Space");
+  lcd.print("1. Control Space");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print(" Or Time");
+  lcd.print("2. Control Time");
   delay(5000);
   lcd.clear();
 
@@ -416,7 +419,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -465,11 +468,11 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print("  Stand All Day");
+  lcd.print("1. Stand All Day");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print(" Or Sit All Day");
+  lcd.print("2. Sit All Day");
   delay(5000);
   lcd.clear();
 
@@ -482,7 +485,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -533,11 +536,13 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print(" Have A Third Eye");
+  lcd.print("1. Have A Third");
+  lcd.setCursor(1, 2);
+lcd.print("      Eye");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print("  Or Third Arm");
+  lcd.print(" 2. Third Arm");
   delay(5000);
   lcd.clear();
 
@@ -550,7 +555,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
@@ -599,11 +604,13 @@ lcd.print("  Rather");
   delay(5000);
   lcd.clear();
   delay(1000);
-  lcd.print(" Be 1 Foot Tall");
+  lcd.print("1. Be 1 Foot");
+  lcd.setCursor(1, 2);
+lcd.print("   Tall");
   delay(5000);
  lcd.clear();
   delay(1000);
-  lcd.print(" Or 10 Feet Tall");
+  lcd.print("2. 10 Feet Tall");
   delay(5000);
   lcd.clear();
 
@@ -616,13 +623,13 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please Choose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
 lcd.clear();
 }
-}
+
 
 if (buttonA == 1){
 
@@ -643,7 +650,7 @@ lcd.clear();
 lcd.clear();
 }
 
-void funny(){
+void joke(){
 
 while(buttonA == 0 && buttonB == 0) { 
   Serial.println(buttonB);
@@ -686,7 +693,7 @@ Serial.println(buttonA);
 buttonA = digitalRead(3);
 buttonB = digitalRead(5);
 lcd.setCursor(0, 0);
-   lcd.print("Please Press a");
+   lcd.print("Please hoose a");
 lcd.setCursor(0, 1);
 lcd.print("    Button");
 lcd.setCursor(0, 1);
